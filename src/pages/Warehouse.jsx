@@ -33,8 +33,8 @@ const Warehouse = () => {
           ))}
         </ul>
       )}
-    </div>
     <img src={owl} alt="image of an owl" />
+    </div>
   );
 };
 
