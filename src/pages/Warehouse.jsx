@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import DonutSpinner from "../components/DonutSpinner/DonutSpinner";
-
+import owl from '../assets/images/owl.jpg'
 const API_URL = import.meta.env.VITE_API_URL;
 
 const Warehouse = () => {
@@ -34,6 +34,7 @@ const Warehouse = () => {
         </ul>
       )}
     </div>
+    <img src={owl} alt="image of an owl" />
   );
 };
 
